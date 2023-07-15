@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(102, 102, 102);
+}
+
+header {
+color: white;
+background: #000;
+text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-family: var(--font2);
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: var(--font1);
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 1.2em;
+}
+
+section.normal {
+    background: #ffffff;
+    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.514);
+}
+
+section.imagem {
+    background-color: #222222;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px black;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: #0000008e;
+    padding: 10px;
+    display: inline-block;
+}
+
+section#img01 {
+    background-image: url('joaninha.jpg');
+}
+
+section#img02 {
+    background-image: url('papel.jpg');
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
